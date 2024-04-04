@@ -1,0 +1,21 @@
+PWD c:\Users\Luís H\Documents\Aulas\LMC
+INPUT C:\Users\Luís H\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Luís H\Documents\Aulas\LMC\Texto.tex
+OUTPUT Texto.log
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Texto.aux
+INPUT .\Texto.aux
+INPUT Texto.aux
+OUTPUT Texto.aux
+INPUT .\CapaABNT.tex
+INPUT .\CapaABNT.tex
+INPUT CapaABNT.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT Texto.pdf
+INPUT C:\Users\Luís H\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT Texto.aux
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

@@ -1,0 +1,82 @@
+% \documentclass[a4paper, 12pt]{article}
+
+% UTF 8 encoding
+\usepackage[utf8]{inputenc}
+
+% Brazilian Portuguese
+\usepackage[brazil]{babel}
+
+% Margins of the page
+\usepackage{geometry}[left=3cm, right=2cm, top=3cm, bottom=2cm]
+
+% Metadados
+\title{Teste Miktex no VS Code}
+\author{Luís Henrique Araújo Couto}
+% data atual
+\date{\today}
+
+% Configuração do título
+\makeatletter
+\renewcommand{\maketitle}{
+    \begin{center}
+        {\huge\textbf{\@title}}
+        \par\smallskip\noindent
+        \begin{tabular}[t]{c}
+            \@author
+        \end{tabular}
+        \par\smallskip\noindent
+        \begin{tabular}[t]{c}
+            \@date
+        \end{tabular}
+    \end{center}
+}
+
+% import de multilinhas tabelas
+\usepackage{multirow}
+
+
+% Inicio do documento
+\begin{document}
+
+\input{CapaABNT.tex}
+
+\maketitle
+
+% texto
+
+\section{Introdução}
+Este é apenas um texto de teste do VS Code como interpretador do Miktex/Latex, para a disciplina de Laboratório de Metodologia Científica. Além disso, muito provavelmente este mesmo interpretador personalizado vai ser usado para o desenvolvimento de texto acadêmicos mais abrangentes usados e desenvidos pelo autor.
+
+\section{Objetivos}
+Aprender essa matéria o mais rápido possível dentro de uma semana para que na prova, eu não só consiga fazer bons arquivos, mas também de maneira rápida e eficiente para isso posssa resultar em uma boa (7) ou ótima (10) nota.
+
+\section{Metodologia}
+A Metodologia de estudo vai no estilo Jucelino Kubitschek, 40 assuntos em apenas 4 dias. Como dizia os Racionais, "o bagulho é louco e o processo é lento, mas o resultado é foda e o final é violento". Portanto, vamos não só conseguir alcançar o objetivo, mas também evitar o desastre de ir para prova final sem saber absolutamente nada.
+
+% tabela de objetivos
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Objetivo} & \textbf{Descrição} \\
+        \hline
+        Objetivo 1 & Aprender a usar o Miktex no VS Code \\
+        \hline
+        Objetivo 2 & Fazer um texto acadêmico \\
+        \hline
+        Objetivo 3 & Aprender a usar o Miktex no VS Code \\
+        \hline
+        Objetivo 4 & Fazer um texto acadêmico \\
+        \hline
+    \end{tabular}
+    \caption{Objetivos do estudo}
+    \label{tab:objetivos}
+\end{table}
+
+% texto grande e centralizado escrito "FIM", em negrito e com margem afastada do texto acima
+\begin{center}
+    \textbf{\large{FIM}}
+\end{center}
+
+
+\end{document}
